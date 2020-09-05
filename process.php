@@ -7,10 +7,10 @@ if(isset($_POST['submit']))
 	$email=$_POST['email'];
 	$password=$_POST['password'];
 	$myfile = fopen("testfile.txt", "w");
-	fwrite($myfile, $fname."<br>");
-	fwrite($myfile, $lname."<br>");
-	fwrite($myfile, $email."<br>");
-	fwrite($myfile, $password."<br>");
+	fwrite($myfile, $fname."\n");
+	fwrite($myfile, $lname."\n");
+	fwrite($myfile, $email."\n");
+	fwrite($myfile, $password."\n");
 	fclose($myfile);
 	header("location:test.php");
     //comment

@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
 	fwrite($myfile, $email."\n");
 	fwrite($myfile, $password."\n");
 	fclose($myfile);
-	header("location:test.php");
+	header("location:loginsuccessful.php");
     //comment
 }
 ?>

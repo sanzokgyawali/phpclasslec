@@ -20,6 +20,7 @@ if($username=="lec" && $password=="clz")
 <form method="post">
 	Username <input type="text" name="username"><br><br>
 	Password <input type="password" name="pass"><br><br>
+	<div></div>
 	<input type="submit" name="submit" value="Submit">
 </form>
 </body>
